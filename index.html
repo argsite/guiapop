@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bootstrap Table - Filter control</title>
+  <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.min.css'>
+<link rel='stylesheet' href='//rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div class="row">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand mx-auto" href="index.html">
+		  <img src="logo.png" width="100" height="100" alt="">
+		</a>
+	  </nav>
+	  </div>
+
+
+<table id="table" 
+			 data-toggle="table"
+			 data-search="true"
+			 data-filter-control="true" 
+			 data-show-export="true"
+			 data-click-to-select="true"
+			 data-toolbar="#toolbar"
+             class="table">
+	<thead>
+		<tr>
+			<th data-field="state" data-checkbox="true"></th>
+			<th data-field="rua" data-filter-control="input" data-sortable="true">Rua</th>
+			<th data-field="observation" data-sortable="false">OBS</th>
+            <th data-field="medico" data-filter-control="input" data-sortable="true">Médico(a)</th>
+            <th data-field="enfermeira" data-filter-control="input" data-sortable="true">Enfermeira</th>
+			<th data-field="equipe" data-filter-control="select" data-sortable="true">Equipe</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="bs-checkbox row"><input data-index="0" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">ALFREDO ROGADO</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="1" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">ALAN KARDEC</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="2" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">ANGELO FUSTAINO</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="3" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">APARICIO PIRES</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="4" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">AURELIA VERONEZE GUITIERREZ</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="5" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">BENEDITO APARECIDO MANFRINATI</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="6" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">BOM JESUS</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="7" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">BOM PASTOR</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="8" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">DANIEL DE CAMARGO TABORDA</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="9" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">HANS REDER</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="10" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">JOAO DIANA SOBRINHO </td>
+            <td class="column1 style5 s">A PARTIR DO Nº 348</td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="11" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">MAESTRO MANOEL JOSE DE CACALAZANS</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="12" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">MAHATIMA GANDHI</td>
+			<td class="column1 style5 null"></td>
+			<td class="column2 style6 s">RAISSA</td>
+			<td class="column3 style6 s">Kelly</td>
+			<td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr>
+			<td class="bs-checkbox "><input data-index="13" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">MARCO AURELIO BATISTELA</td>
+			<td class="column1 style5 null"></td>
+			<td class="column2 style6 s">RAISSA</td>
+			<td class="column3 style6 s">Kelly</td>
+			<td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="14" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">MARIA EUGENIA PIMENTA DIANA</td>
+            <td class="column1 style5 s">COMEÇA NO Nº 137</td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="15" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">MARIO PIRES DE ALMEIDA</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="16" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">OLIVIO TOME</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="17" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">OSVALDO NOVAES DE CARVALHO</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="18" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">OTONIEL RODRIGUES</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="19" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">PADRE JOSE DE ANCHIETA</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="20" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">PERES VENTURA</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="21" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">PLINIO MARTINS SIQUEIRA</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="22" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">REI DAVI</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="23" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">SILVIO BOSCOLO</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="24" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">SILVIO PELEGRINI </td>
+            <td class="column1 style5 s">A PARTIR DO Nº 157</td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		<tr> 
+			<td class="bs-checkbox "><input data-index="25" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">SUZETE TOME ALCALA</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		
+		<tr> 
+			<td class="bs-checkbox "><input data-index="26" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style4 s">WALTER ALBIEIRO</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		
+		<tr> 
+			<td class="bs-checkbox "><input data-index="27" name="btSelectItem" type="checkbox"></td>
+			<td class="column0 style7 s">WALTER CASTELUCCI</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style6 s">RAISSA</td>
+            <td class="column3 style6 s">Kelly</td>
+            <td class="column4 style6 s">PRATA</td>
+		</tr>
+		
+          <tr class="row29">
+			<td class="bs-checkbox "><input data-index="28" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">AGEU AUGUSTO DA SILVA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row30">
+			<td class="bs-checkbox "><input data-index="29" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ALZIRA PREVITALI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row31">
+			<td class="bs-checkbox "><input data-index="30" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ANGELO GASTARDELI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row32">
+			<td class="bs-checkbox "><input data-index="31" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ANGELO GIOVANE MENEGON</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row33">
+			<td class="bs-checkbox "><input data-index="32" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ANTONIO GIBIM</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row34">
+			<td class="bs-checkbox "><input data-index="33" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ARMANDO SALLES DE OLIVEIRA</td>
+            <td class="column1 style6 s">653 A 1070</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row35">
+			<td class="bs-checkbox "><input data-index="34" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">AUGUSTINHO ZARDETO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row36">
+			<td class="bs-checkbox "><input data-index="35" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">AURORA MACHADO GUIMARAES</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row37">
+			<td class="bs-checkbox "><input data-index="36" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">AVELINO ALVES DE OLIVIERA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row38">
+			<td class="bs-checkbox "><input data-index="37" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">BENEDITA DE ALMEIDA LEAL</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row39">
+			<td class="bs-checkbox "><input data-index="38" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">DARIO MARTELI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row40">
+			<td class="bs-checkbox "><input data-index="39" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">FELICIO CASTELUCCI</td>
+            <td class="column1 style6 s">A PARTIR 131</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row41">
+			<td class="bs-checkbox "><input data-index="40" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">GESSIA ODETE MORAES LISBOA</td>
+            <td class="column1 style6 s">35 A 250</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row42">
+			<td class="bs-checkbox "><input data-index="41" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">HUMBERTO MARTELLI</td>
+            <td class="column1 style6 s">A PARTIR 134</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row43">
+			<td class="bs-checkbox "><input data-index="42" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ITAMAR 2º ALVES SANTANA</td>
+            <td class="column1 style6 s">29 A 181</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row44">
+			<td class="bs-checkbox "><input data-index="43" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO DIANA SOBRINHO</td>
+            <td class="column1 style6 s">15 A 257</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row45">
+			<td class="bs-checkbox "><input data-index="44" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO MARINONIO DE CAMARGO </td>
+            <td class="column1 style6 s">A PARTIR 157</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row46">
+			<td class="bs-checkbox "><input data-index="45" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO VICENTE FERREIRA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row47">
+			<td class="bs-checkbox "><input data-index="46" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE CAETANO JESUS</td>
+            <td class="column1 style6 s">39, 17, 13</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row48">
+			<td class="bs-checkbox "><input data-index="47" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE MARTINS TELES</td>
+            <td class="column1 style6 s">05 A 835</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row49">
+			<td class="bs-checkbox "><input data-index="48" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JULIEN FOUQUE</td>
+            <td class="column1 style6 s">20 A 505</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row50">
+			<td class="bs-checkbox "><input data-index="49" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JULIO SOARES DIEL</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row51">
+			<td class="bs-checkbox "><input data-index="50" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LAZARO DIAS SANTOS</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row52">
+			<td class="bs-checkbox "><input data-index="51" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LUIS CARLOS LISBOA</td>
+            <td class="column1 style6 s">15 A 90</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row53">
+			<td class="bs-checkbox "><input data-index="52" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LUIZA DANIEL GILBERT</td>
+            <td class="column1 style6 s">47 A 77</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row54">
+			<td class="bs-checkbox "><input data-index="53" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MADRE SERAFINA</td>
+            <td class="column1 style6 s">163 A 420</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row55">
+			<td class="bs-checkbox "><input data-index="54" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MARIA EUGENIA PIMENTA DIANA</td>
+            <td class="column1 style6 s">8 A 88</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row56">
+			<td class="bs-checkbox "><input data-index="55" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MARIA MARGARIDA PASCOAL</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row57">
+			<td class="bs-checkbox "><input data-index="56" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MONSENHOR PIRES</td>
+            <td class="column1 style6 s">318 A 604</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row58">
+			<td class="bs-checkbox "><input data-index="57" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MURO 05 IVONE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row59">
+			<td class="bs-checkbox "><input data-index="58" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">OSVALDO NOVAES DE CARVALHO</td>
+            <td class="column1 style6 s">ATÉ 56</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row60">
+			<td class="bs-checkbox "><input data-index="59" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">OTACILIO VALINI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row61">
+			<td class="bs-checkbox "><input data-index="60" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">OTONIEL MOTA</td>
+            <td class="column1 style6 s">41 A 322</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row62">
+			<td class="bs-checkbox "><input data-index="61" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PADRE ALEXANDRE HOLDEAL</td>
+            <td class="column1 style6 s">125 A 445</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row63">
+			<td class="bs-checkbox "><input data-index="62" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">RODOLFO MOTA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row64">
+			<td class="bs-checkbox "><input data-index="63" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ROSA GUARINI MARTELI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row65">
+			<td class="bs-checkbox "><input data-index="64" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SAID NEIF</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row66">
+			<td class="bs-checkbox "><input data-index="65" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SILVIA MARTELI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row67">
+			<td class="bs-checkbox "><input data-index="66" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style8 s">SILVIO PELEGRINE</td>
+            <td class="column1 style6 s">7 A 87</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row68">
+			<td class="bs-checkbox "><input data-index="67" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SUZANA FRANCO ROCO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row69">
+			<td class="bs-checkbox "><input data-index="68" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">VALDEREZ PIRES</td>
+            <td class="column1 style6 s">115, 120, 112, 171, 102, 98</td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row70">
+			<td class="bs-checkbox "><input data-index="69" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">VILMA MARIA BOSCOLO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row71">
+			<td class="bs-checkbox "><input data-index="70" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">VIRGILINO DE OLIVEIRA SANTOS</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">ANA PAULA</td>
+            <td class="column3 style6 s">Andreia</td>
+            <td class="column4 style6 s">AMARELA</td>
+          </tr>
+          <tr class="row72">
+			<td class="bs-checkbox "><input data-index="71" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ADA CALGARIO CAVALANTE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row73">
+			<td class="bs-checkbox "><input data-index="72" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ALZIRO CARLOS</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row74">
+			<td class="bs-checkbox "><input data-index="73" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ANTONIO DARIO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row75">
+			<td class="bs-checkbox "><input data-index="74" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">BENEDITO PRESTES SOUZA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row76">
+			<td class="bs-checkbox "><input data-index="75" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">DOUTOR CELIO PRADO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row77">
+			<td class="bs-checkbox "><input data-index="76" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">CLARICE SANA SERRALHEIRO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row78">
+			<td class="bs-checkbox "><input data-index="77" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">CLEITON BAZZO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row79">
+			<td class="bs-checkbox "><input data-index="78" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style7 s">DANIEL DE CAMARGO TABORDA</td>
+            <td class="column1 style6 s">A PARTIR 590</td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row80">
+			<td class="bs-checkbox "><input data-index="79" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">DANIEL DA SILVA BRAGA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row81">
+			<td class="bs-checkbox "><input data-index="80" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">DANTE CAREZIA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row82">
+			<td class="bs-checkbox "><input data-index="81" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">EDGAR DE MORAES</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row83">
+			<td class="bs-checkbox "><input data-index="82" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">FELIPE MANOEL DE CAMPOS</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row84">
+			<td class="bs-checkbox "><input data-index="83" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">FLAVIA SAMPAIO BELO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">DRA REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row85">
+			<td class="bs-checkbox "><input data-index="84" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">FRANCISCO MIGUEL MACEDO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row86">
+			<td class="bs-checkbox "><input data-index="85" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">IRENE SEGATO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row87">
+			<td class="bs-checkbox "><input data-index="86" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO BRASILIO DA SILVA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row88">
+			<td class="bs-checkbox "><input data-index="87" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO GASTARDELI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row89">
+			<td class="bs-checkbox "><input data-index="88" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE BARBOSA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row90">
+			<td class="bs-checkbox "><input data-index="89" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE MARTINS TELES</td>
+            <td class="column1 style6 s">1135 A 1143</td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row91">
+			<td class="bs-checkbox "><input data-index="90" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE ROBERTO BATISTELA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row92">
+			<td class="bs-checkbox "><input data-index="91" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LAURO GALVAO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row93">
+			<td class="bs-checkbox "><input data-index="92" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LAURO STEINER DE CAMARGO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row94">
+			<td class="bs-checkbox "><input data-index="93" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LUIS TEMPESTA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">DRA REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row95">
+			<td class="bs-checkbox "><input data-index="94" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MARIO CAMILO FILHO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row96">
+			<td class="bs-checkbox "><input data-index="95" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MARIO COVAS</td>
+            <td class="column1 style6 s">1985 A 2945</td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row97">
+			<td class="bs-checkbox "><input data-index="96" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">NORBERTO COELHO DE OLIVEIRA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row98">
+			<td class="bs-checkbox "><input data-index="97" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">OCIREMA FERNANDES STETNER</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row99">
+			<td class="bs-checkbox "><input data-index="98" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">OLGA BRUGNARIOTO SGARIBALD</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row100">
+			<td class="bs-checkbox "><input data-index="99" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PAULO DE OLIVEIRA TAUHYL</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row101">
+			<td class="bs-checkbox "><input data-index="100" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PEDRO SGARIBALD</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row102">
+			<td class="bs-checkbox "><input data-index="101" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PLINIO MARTINS TELES</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row103">
+			<td class="bs-checkbox "><input data-index="102" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ROBERVAL CAMARGO DE MORAES</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row104">
+			<td class="bs-checkbox "><input data-index="103" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ROMEU CASTELUCCI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row105">
+			<td class="bs-checkbox "><input data-index="104" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SANTA LUCIA MAGOGA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row106">
+			<td class="bs-checkbox "><input data-index="105" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SANTOS SGARIBALDI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row107">
+			<td class="bs-checkbox "><input data-index="106" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SILAS BACARO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row108">
+			<td class="bs-checkbox "><input data-index="107" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ULISSE ALVES MACHADO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row109">
+			<td class="bs-checkbox "><input data-index="108" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">VALDEMAR VERONEZE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row110">
+			<td class="bs-checkbox "><input data-index="109" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">VIRGILIO ANGELIERE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">REBECA</td>
+            <td class="column3 style6 s">Victoria</td>
+            <td class="column4 style6 s">ROSA</td>
+          </tr>
+          <tr class="row111">
+			<td class="bs-checkbox "><input data-index="110" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ADOLFO FERRARI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row112">
+			<td class="bs-checkbox "><input data-index="111" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">AMADEU MARTELLI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row113">
+			<td class="bs-checkbox "><input data-index="112" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ANTONIO BELO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row114">
+			<td class="bs-checkbox "><input data-index="113" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ANTONIO LEITE ALMEIDA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row115">
+			<td class="bs-checkbox "><input data-index="114" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ARMANDO RAMOS</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row116">
+			<td class="bs-checkbox "><input data-index="115" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ARMANDO SALLES DE OLIVEIRA</td>
+            <td class="column1 style6 s">DO Nº174 ATÉ Nº585</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row117">
+			<td class="bs-checkbox "><input data-index="116" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ARMANDO SALLES DE OLIVEIRA </td>
+            <td class="column1 style6 s">A PARTIR DO Nº12 ATÉ Nº169</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row118">
+			<td class="bs-checkbox "><input data-index="117" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ATILIO COLI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row119">
+			<td class="bs-checkbox "><input data-index="118" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">BENEDITO PEREIRA ARRUDA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row120">
+			<td class="bs-checkbox "><input data-index="119" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">BENEDITO TOLEDO VIEIRA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row121">
+			<td class="bs-checkbox "><input data-index="120" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">BENEDITO VAZ CARDOSO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row122">
+			<td class="bs-checkbox "><input data-index="121" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">BOITUVA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row123">
+			<td class="bs-checkbox "><input data-index="122" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">CABREUVA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row124">
+			<td class="bs-checkbox "><input data-index="123" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">CANTIDIO DE OLIVEIRA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row125">
+			<td class="bs-checkbox "><input data-index="124" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">CERQUILHO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row126">
+			<td class="bs-checkbox "><input data-index="125" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">EVARISTO BATISTELA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row127">
+			<td class="bs-checkbox "><input data-index="126" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">FELICIO CASTELUCCI  </td>
+            <td class="column1 style6 s">ATÉ 130</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row128">
+			<td class="bs-checkbox "><input data-index="127" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">GENESIO RODRIGUES</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row129">
+			<td class="bs-checkbox "><input data-index="128" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">HUMBERTO MARTELLI</td>
+            <td class="column1 style6 s">ATÉ 120</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row130">
+			<td class="bs-checkbox "><input data-index="129" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">INDAIATUBA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row131">
+			<td class="bs-checkbox "><input data-index="130" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ITU</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row132">
+			<td class="bs-checkbox "><input data-index="131" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO BATISTA DE CAMPOS</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row133">
+			<td class="bs-checkbox "><input data-index="132" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO MARINONIO DE CAMARGO </td>
+            <td class="column1 style6 s">ATÉ 140</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row134">
+			<td class="bs-checkbox "><input data-index="133" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAO RODRIGUES DA SILVA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row135">
+			<td class="bs-checkbox "><input data-index="134" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOAQUIM PIRES ALMEIDA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row136">
+			<td class="bs-checkbox "><input data-index="135" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE GUERINE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row137">
+			<td class="bs-checkbox "><input data-index="136" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE MARCELINO ANTUNES</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row138">
+			<td class="bs-checkbox "><input data-index="137" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">JOSE TEIXEIRA DA FONSECA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row139">
+			<td class="bs-checkbox "><input data-index="138" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LUIS ANTONIO VIEIRA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row140">
+			<td class="bs-checkbox "><input data-index="139" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LUIS CARLOS RINCK</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row141">
+			<td class="bs-checkbox "><input data-index="140" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">LUIS MARTELI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row142">
+			<td class="bs-checkbox "><input data-index="141" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MADRE SERAFINA </td>
+            <td class="column1 style6 s">ATÉ 163</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row143">
+			<td class="bs-checkbox "><input data-index="142" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MARIA MARGARIDA COSSONICHE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row144">
+			<td class="bs-checkbox "><input data-index="143" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">MONSENHOR PIRES </td>
+            <td class="column1 style6 s">ATÉ 286</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row145">
+			<td class="bs-checkbox "><input data-index="144" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">NATALIO TAUHYL</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row146">
+			<td class="bs-checkbox "><input data-index="145" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">OLAVO ASSUMPÇAO FLEURY </td>
+            <td class="column1 style6 s">ATE O N° 96 </td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row147">
+			<td class="bs-checkbox "><input data-index="146" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PADRE ALEXANDRE HORDEAU </td>
+            <td class="column1 style6 s">ATÉ 39</td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row148">
+			<td class="bs-checkbox "><input data-index="147" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PASCOA BONINE GUERINE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row149">
+			<td class="bs-checkbox "><input data-index="148" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PEDRO PAULO DE OLIVEIRA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row150">
+			<td class="bs-checkbox "><input data-index="149" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">PIRAPORA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row151">
+			<td class="bs-checkbox "><input data-index="150" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ROQUE PLINIO DE CARVALHO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row152">
+			<td class="bs-checkbox "><input data-index="151" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SALTO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row153">
+			<td class="bs-checkbox "><input data-index="152" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SANTA ROSA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row154">
+			<td class="bs-checkbox "><input data-index="153" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">SOROCABA</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row155">
+			<td class="bs-checkbox "><input data-index="154" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">TATUI</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row156">
+			<td class="bs-checkbox "><input data-index="155" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">TIETE</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row157">
+			<td class="bs-checkbox "><input data-index="156" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">ULISSES CARNELIO VITORINO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+          <tr class="row158">
+			<td class="bs-checkbox "><input data-index="157" name="btSelectItem" type="checkbox"></td>
+            <td class="column0 style4 s">VITORIO BELO</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style6 s">BRUNO</td>
+            <td class="column3 style6 s">Leila</td>
+            <td class="column4 style6 s">OURO</td>
+          </tr>
+		
+		
+	</tbody>
+</table>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/editable/bootstrap-table-editable.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/export/bootstrap-table-export.js'></script>
+<script src='//rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/filter-control/bootstrap-table-filter-control.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
