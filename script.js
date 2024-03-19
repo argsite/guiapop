@@ -987,8 +987,8 @@ var data = [
         "Rua": "AMADEU MARTELLI (AM)",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
-        "Equipe": "3",
-        "Micro": "5",
+        "Equipe": "OURO",
+        "Micro": "3",
         "CEP": "18542-076",
     },
     {
