@@ -257,7 +257,7 @@ var data = [
         "id": "29",
         "Rua": "ALZIRA PREVITALI (AP)",
         "Medico": "ANA PAULA",
-        "Enfermeira	": "Andrea",
+        "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
         "Micro": "3",
         "CEP": "18542-318",
