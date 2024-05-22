@@ -39,7 +39,7 @@ var data = [
     },
     {
         "id": "5",
-        "Rua": "AURELIA VERONEZE GUITIERREZ (AVG)",
+        "Rua": "AURELIA VERONEZE GUTIERREZ (AVG)",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
