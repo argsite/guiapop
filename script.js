@@ -939,7 +939,7 @@ var data = [
     },
     {
         "id": "105",
-        "Rua": "SILES BACARO (SB)",
+        "Rua": "REVERENDO SILES BACARO (SB)",
         "Medico": "RENAN",
         "Enfermeira": "Maria Ap Maciel",
         "Equipe": "ROSA",
