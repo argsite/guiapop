@@ -1486,6 +1486,15 @@ var data = [
         "Micro": "4 - GUILHERME",
         "CEP": "18542-368",
     },
+    {
+        "id": "166",
+        "Rua": "TANCREDO DE ALMEIDA NEVES (TAN)",
+        "Medico": "RENAN",
+        "Enfermeira": "Maria Ap Maciel",
+        "Equipe": "ROSA",
+        "Micro": "",
+        "CEP": "",
+    },
 ];
 
 state.data = data;
