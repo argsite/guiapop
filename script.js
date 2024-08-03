@@ -1190,15 +1190,6 @@ var data = [
         "CEP": "18542-062",
     },
     {
-        "id": "133",
-        "Rua": "Song",
-        "Medico": "Madrid",
-        "Enfermeira": "Jun 15, 2017",
-        "Equipe": "OURO",
-        "Micro": "5",
-        "CEP": "18542-458",
-    },
-    {
         "id": "134",
         "Rua": "JOAQUIM PIRES ALMEIDA (JPA)",
         "Medico": "BRUNO",
