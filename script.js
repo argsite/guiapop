@@ -1486,6 +1486,15 @@ var data = [
         "Micro": "",
         "CEP": "",
     },
+
+    "id": "167",
+        "Rua": "LUIZ CARLOS LISBOA (LCL) - 91 EM DIANTE",
+        "Medico": "BRUNO",
+        "Enfermeira": "Ana Beatriz",
+        "Equipe": "OURO",
+        "Micro": "",
+        "CEP": "18545-120",
+    },
 ];
 
 state.data = data;
