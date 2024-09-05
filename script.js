@@ -1486,7 +1486,7 @@ var data = [
         "Micro": "",
         "CEP": "",
     },
-
+    {
     "id": "167",
         "Rua": "LUIZ CARLOS LISBOA (LCL) - 91 EM DIANTE",
         "Medico": "BRUNO",
