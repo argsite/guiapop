@@ -854,7 +854,7 @@ var data = [
         "Enfermeira": "Jun 15, 2017",
         "Equipe": "ROSA",
         "Micro": "5",
-        "CEP": "18542-458",
+        "CEP": "18545-134",
     },
     {
         "id": "96",
