@@ -850,8 +850,8 @@ var data = [
     {
         "id": "95",
         "Rua": "NORBERTO COELHO DE OLIVEIRA (NCO)",
-        "Medico": "Madrid",
-        "Enfermeira": "Jun 15, 2017",
+        "Medico": "RENAN",
+        "Enfermeira": "Maria Ap Maciel",
         "Equipe": "ROSA",
         "Micro": "5",
         "CEP": "18545-134",
