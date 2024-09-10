@@ -4,7 +4,6 @@ var data = [
     {
         "id": "1",
         "Rua": "ALFREDO ROGADO (AR)",
-        "Bairro": "Conj. Habitacional Eugênio Motta",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -14,7 +13,6 @@ var data = [
     {
         "id": "2",
         "Rua": "ALAN KARDEC (AK)",
-        "Bairro": "Convívio do Santo",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -24,7 +22,6 @@ var data = [
     {
         "id": "3",
         "Rua": "ANGELO FUSTAINO (AF)",
-        "Bairro": "Conj. Habitacional Benedito José Diana",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -34,7 +31,6 @@ var data = [
     {
         "id": "4",
         "Rua": "APARICIO PIRES (AP)",
-        "Bairro": "Conj. Habitacional Eugênio Motta",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -44,7 +40,6 @@ var data = [
     {
         "id": "5",
         "Rua": "AURELIA VERONEZE GUTIERREZ (AVG)",
-        "Bairro": "Conj. Habitacional Benedito José Diana",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -54,7 +49,6 @@ var data = [
     {
         "id": "6",
         "Rua": "BENEDITO APARECIDO MANFRINATI (BAM)",
-        "Bairro": "Conj. Habitacional Benedito José Diana",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -64,7 +58,6 @@ var data = [
     {
         "id": "7",
         "Rua": "BOM JESUS (BJ)",
-        "Bairro": "Convívio do Santo",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -74,7 +67,6 @@ var data = [
     {
         "id": "8",
         "Rua": "BOM PASTOR (BP)",
-        "Bairro": "Convívio do Santo",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -84,7 +76,6 @@ var data = [
     {
         "id": "9",
         "Rua": "DANIEL DE CAMARGO TABORDA (DCT) - (5-484)",
-        "Bairro": "Conjunto Habitacional Eugênio Motta (até 175)",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -94,7 +85,6 @@ var data = [
     {
         "id": "10",
         "Rua": "HANS REDER (HR)",
-        "Bairro": "Conj. Habitacional Eugênio Motta",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -104,7 +94,6 @@ var data = [
     {
         "id": "11",
         "Rua": "JOAO DIANA SOBRINHO (JDS) - 348 em diante",
-        "Bairro": "Jardim Excelsior",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -114,7 +103,6 @@ var data = [
     {
         "id": "12",
         "Rua": "MAESTRO MANOEL JOSE DE CACALAZANS (MMJC)",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -124,7 +112,6 @@ var data = [
     {
         "id": "13",
         "Rua": "MAHATMA GANDHI (MG)",
-        "Bairro": "Convívio do Santo",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -134,7 +121,6 @@ var data = [
     {
         "id": "14",
         "Rua": "MARCO AURELIO BATISTELA (MAB)",
-        "Bairro": "Parque Residencial Água Branca",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -144,17 +130,15 @@ var data = [
     {
         "id": "15",
         "Rua": "MARIA EUGENIA PIMENTA DIANA (MEPD) - 137-303",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
         "Micro": "2",
-        "CEP": "18542-360",
+        "CEP": "18542-330",
     },
     {
         "id": "16",
         "Rua": "MARIO PIRES DE ALMEIDA (MPA)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -164,7 +148,6 @@ var data = [
     {
         "id": "17",
         "Rua": "OLIVIO TOME (OT)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -174,7 +157,6 @@ var data = [
     {
         "id": "18",
         "Rua": "OSVALDO NOVAES DE CARVALHO (ONC) - 125-309",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -184,7 +166,6 @@ var data = [
     {
         "id": "19",
         "Rua": "OTONIEL RODRIGUES (OR)",
-        "Bairro": "Parque Residencial Água Branca",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -194,17 +175,15 @@ var data = [
     {
         "id": "20",
         "Rua": "PADRE JOSE DE ANCHIETA (PJA)",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
         "Micro": "4 - GUILHERME",
-        "CEP": "18542-370",
+        "CEP": "18542-368",
     },
     {
         "id": "21",
         "Rua": "PLINIO MARTINS SIQUEIRA (PMS)",
-        "Bairro": "Conj. Habitacional Benedito José Diana",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -214,7 +193,6 @@ var data = [
     {
         "id": "22",
         "Rua": "REI DAVI (RD)",
-        "Bairro": "Convívio do Santo",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -224,7 +202,6 @@ var data = [
     {
         "id": "23",
         "Rua": "SILVIO BOSCOLO (SB)",
-        "Bairro": "Con. Habitacional Benedito José Diana",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -234,7 +211,6 @@ var data = [
     {
         "id": "24",
         "Rua": "SILVIO PELEGRINE - (SP) - 156-302",
-        "Bairro": "Conjunto Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -244,7 +220,6 @@ var data = [
     {
         "id": "25",
         "Rua": "SUZETE TOME ALCALA (STA)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "PEDRO",
         "Enfermeira": "Milena",
         "Equipe": "PRATA",
@@ -254,7 +229,6 @@ var data = [
     {
         "id": "26",
         "Rua": "VALTER ALBIEIRO (VA)",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milena",
         "Equipe": "PRATA",
@@ -264,7 +238,6 @@ var data = [
     {
         "id": "27",
         "Rua": "WALTER CASTELUCCI (WC)",
-        "Bairro": "Conj. Habitacional Benedito José Diana",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -274,7 +247,6 @@ var data = [
     {
         "id": "28",
         "Rua": "AGEU AUGUSTO DA SILVA (AAS)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -284,7 +256,6 @@ var data = [
     {
         "id": "29",
         "Rua": "ALZIRA PREVITALI (AP)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -294,7 +265,6 @@ var data = [
     {
         "id": "30",
         "Rua": "ANGELO GASTARDELLO (AG)",
-        "Bairro": "Rua Ângelo Gastardello",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -304,7 +274,6 @@ var data = [
     {
         "id": "31",
         "Rua": "ANGELO GIOVANI MENEGON (AGM)",
-        "Bairro": "Jardim Martelli",
         "Medico": "AMARELA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -314,7 +283,6 @@ var data = [
     {
         "id": "32",
         "Rua": "ANTONIO GIBIM (AG)",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -324,7 +292,6 @@ var data = [
     {
         "id": "33",
         "Rua": "ARMANDO SALES DE OLIVEIRA (ASO) - 653 A 1070",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -334,7 +301,6 @@ var data = [
     {
         "id": "34",
         "Rua": "AGOSTINHO ZARDETO (AZ)",
-        "Bairro": "Jardim Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -344,7 +310,6 @@ var data = [
     {
         "id": "35",
         "Rua": "AURORA MACHADO GUIMARAES (AMG)",
-        "Bairro": "Conjunto Habitacional Agostinho Alcalá",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -354,7 +319,6 @@ var data = [
     {
         "id": "36",
         "Rua": "AVELINO ALVES DE OLIVEIRA (AAO)",
-        "Bairro": "Jardim Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -364,7 +328,6 @@ var data = [
     {
         "id": "37",
         "Rua": "BENEDITA DE ALMEIDA LEAL (BAL)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -374,7 +337,6 @@ var data = [
     {
         "id": "38",
         "Rua": "DARIO MARTELI (DM)",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -384,7 +346,6 @@ var data = [
     {
         "id": "39",
         "Rua": "FELICIO CASTELUCCI (FC) - 131 EM DIANTE",
-        "Bairro": "Vila Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -394,7 +355,6 @@ var data = [
     {
         "id": "40",
         "Rua": "GESSIA ODETE MORAES LISBOA (GOML) - 35 A 250",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -404,17 +364,15 @@ var data = [
     {
         "id": "41",
         "Rua": "HUMBERTO MARTELLI (HM) - 134 EM DIANTE",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
         "Micro": "4",
-        "CEP": "18542-232",
+        "CEP": "18542-240",
     },
     {
         "id": "42",
         "Rua": "ITAMAR SEGUNDO ALVES DE SANTANA (ISAS) - 29 A 181",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -424,7 +382,6 @@ var data = [
     {
         "id": "43",
         "Rua": "JOAO DIANA SOBRINHO (JDS) - 15 A 257",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -434,7 +391,6 @@ var data = [
     {
         "id": "44",
         "Rua": "JOAO MARINONIO DE CAMARGO (JMC) - 157 EM DIANTE",
-        "Bairro": "Jardim Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -444,7 +400,6 @@ var data = [
     {
         "id": "45",
         "Rua": "JOAO VICENTE FERREIRA (JVF)",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -453,8 +408,7 @@ var data = [
     },
     {
         "id": "46",
-        "Rua": "JOSE CAETANO JESUS (JCJ) - 13, 17, 39",
-        "Bairro": "Jardim Excelsior",
+        "Rua": "JOSE CAETANO JESUS (JCJ) - 39, 17, 13",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -464,7 +418,6 @@ var data = [
     {
         "id": "47",
         "Rua": "JOSE MARTINS TELES (JMT) - 05 A 835",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -474,7 +427,6 @@ var data = [
     {
         "id": "48",
         "Rua": "JULIEN FOUQUE (JF) - 20 A 505",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -484,7 +436,6 @@ var data = [
     {
         "id": "49",
         "Rua": "JULIO SOARES DIEL (JSD)",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -494,7 +445,6 @@ var data = [
     {
         "id": "50",
         "Rua": "LAZARO DIAS SANTOS (LDS)",
-        "Bairro": "Jardim Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -504,7 +454,6 @@ var data = [
     {
         "id": "51",
         "Rua": "LUIZ CARLOS LISBOA (LCL) - 15 A 90",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -514,7 +463,6 @@ var data = [
     {
         "id": "52",
         "Rua": "LUZIA DANIEL GHILBERT (LDG) - 47 A 77",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -524,7 +472,6 @@ var data = [
     {
         "id": "53",
         "Rua": "MADRE SERAFINA (MS) - 164 A 420",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -534,17 +481,15 @@ var data = [
     {
         "id": "54",
         "Rua": "MARIA EUGENIA PIMENTA DIANA (MEPD) - 8-88",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
         "Micro": "3",
-        "CEP": "18542-330",
+        "CEP": "18542-360",
     },
     {
         "id": "55",
         "Rua": "MARIA MARGARIDA PASCOAL (MMP)",
-        "Bairro": "Jardim Excelsior",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -554,7 +499,6 @@ var data = [
     {
         "id": "56",
         "Rua": "MONSENHOR PIRES (MP) - 318 A 604",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -564,7 +508,6 @@ var data = [
     {
         "id": "57",
         "Rua": "OSVALDO NOVAES DE CARVALHO (ONC) - ATÉ 56",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -574,7 +517,6 @@ var data = [
     {
         "id": "58",
         "Rua": "OTACILIO VALINI (OV)",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -584,7 +526,6 @@ var data = [
     {
         "id": "59",
         "Rua": "OTONIEL MOTTA (OM) - 41 A 322",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -594,7 +535,6 @@ var data = [
     {
         "id": "60",
         "Rua": "PADRE ALEXANDRE HOLDEAU (PAH) - 125 A 445",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -604,7 +544,6 @@ var data = [
     {
         "id": "61",
         "Rua": "RODOLFO MOTTA (RM)",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -614,7 +553,6 @@ var data = [
     {
         "id": "62",
         "Rua": "ROSA GUARINI MARTELLI (RGM)",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -624,7 +562,6 @@ var data = [
     {
         "id": "63",
         "Rua": "SAID NEIFE (SN)",
-        "Bairro": "Jardim Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -634,7 +571,6 @@ var data = [
     {
         "id": "64",
         "Rua": "SILVIA MARTELLI (SM)",
-        "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -644,7 +580,6 @@ var data = [
     {
         "id": "65",
         "Rua": "SILVIO PELEGRINE (SP) - 7 A 87",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -653,8 +588,7 @@ var data = [
     },
     {
         "id": "66",
-        "Rua": "SUZANA FRANCO ROCCO (SFR)",
-        "Bairro": "",
+        "Rua": "SUZANA FRANCO ROCO (SFR)",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -663,8 +597,7 @@ var data = [
     },
     {
         "id": "67",
-        "Rua": "VALDEREZ PIRES (VP) - 98, 102, 112, 115, 120, 171",
-        "Bairro": "Jardim Excelsior",
+        "Rua": "VALDEREZ PIRES (VP) - 115, 120, 112, 171, 102, 98",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -674,7 +607,6 @@ var data = [
     {
         "id": "68",
         "Rua": "VILMA MARIA BOSCOLO (VMB)",
-        "Bairro": "Conj. Habitacional Eugênio Motta",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -684,7 +616,6 @@ var data = [
     {
         "id": "69",
         "Rua": "VIRGILINO DE OLIVEIRA SANTOS (VOS)",
-        "Bairro": "Jardim Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
         "Equipe": "AMARELA",
@@ -694,7 +625,6 @@ var data = [
     {
         "id": "70",
         "Rua": "ADA CALGARO CAVALANTE (AGC)",
-        "Bairro": "Jardim Rolando Giuli",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -704,7 +634,6 @@ var data = [
     {
         "id": "71",
         "Rua": "ALZIRO CARLOS (AC)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -714,7 +643,6 @@ var data = [
     {
         "id": "72",
         "Rua": "ANTONIO DARIO (AD)",
-        "Bairro": "Belo Alto",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -724,7 +652,6 @@ var data = [
     {
         "id": "73",
         "Rua": "BENEDITO PRESTES SOUZA (BPS)",
-        "Bairro": "Jardim Rolando Giuli",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -734,7 +661,6 @@ var data = [
     {
         "id": "74",
         "Rua": "DOUTOR CELIO PRADO (DCP)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -744,7 +670,6 @@ var data = [
     {
         "id": "75",
         "Rua": "CLARICE SANNA SERRALHEIRO (CSS)",
-        "Bairro": "Conj. Habitacional Residencial Bello",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -754,7 +679,6 @@ var data = [
     {
         "id": "76",
         "Rua": "CLEITON BAZZO CUCHERA (CBC)",
-        "Bairro": "Jardim Santa Terezinha",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -764,7 +688,6 @@ var data = [
     {
         "id": "77",
         "Rua": "DANIEL DE CAMARGO TABORDA (DCT) - 485 EM DIANTE",
-        "Bairro": "Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -774,7 +697,6 @@ var data = [
     {
         "id": "78",
         "Rua": "DANIEL DA SILVA BRAGA (DSB)",
-        "Bairro": "Jardim Esplanada",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -784,7 +706,6 @@ var data = [
     {
         "id": "79",
         "Rua": "DANTE CAREZIA (DC)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -793,8 +714,7 @@ var data = [
     },
     {
         "id": "80",
-        "Rua": "EDGAR MORAES (EM)",
-        "Bairro": "Parque Residencial São Marcos",
+        "Rua": "EDGAR DE MORAES (EM)",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -804,7 +724,6 @@ var data = [
     {
         "id": "81",
         "Rua": "FELIPE MANOEL DE CAMPOS (FMC)",
-        "Bairro": "-Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -814,7 +733,6 @@ var data = [
     {
         "id": "82",
         "Rua": "FLAVIA SAMPAIO BELLO (FSB)",
-        "Bairro": "Belo Alto",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -824,7 +742,6 @@ var data = [
     {
         "id": "83",
         "Rua": "FRANCISCO MIGUEL MACEDO (FMM)",
-        "Bairro": "Jardim Esplanada",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -834,7 +751,6 @@ var data = [
     {
         "id": "84",
         "Rua": "IRENE SEGATO (IS)",
-        "Bairro": "Jardim Santa Terezinha",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -844,7 +760,6 @@ var data = [
     {
         "id": "85",
         "Rua": "JOAO BRASILIO DA SILVA (JBS)",
-        "Bairro": "Conj. Habitacional Residencial Bello",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -854,7 +769,6 @@ var data = [
     {
         "id": "86",
         "Rua": "JOAO GASTARDELI (JG)",
-        "Bairro": "Jardim Esplanada",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -864,7 +778,6 @@ var data = [
     {
         "id": "87",
         "Rua": "JOSE BARBOSA (JB)",
-        "Bairro": "Jardim Rolando Giuli",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -874,7 +787,6 @@ var data = [
     {
         "id": "88",
         "Rua": "JOSE MARTINS TELES (JMT) - 1135 A 1143",
-        "Bairro": "Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -884,7 +796,6 @@ var data = [
     {
         "id": "89",
         "Rua": "JOSE ROBERTO BATISTELA (JRB)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -894,17 +805,15 @@ var data = [
     {
         "id": "90",
         "Rua": "LAURO GALVAO (LG)",
-        "Bairro": "Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
         "Micro": "2 - RENATA",
-        "CEP": "18542-484",
+        "CEP": "18542-458",
     },
     {
         "id": "91",
         "Rua": "LAURA STEINER DE CARVALHO (LSC)",
-        "Bairro": "Conj. Habitacional Residencial Bello",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -914,7 +823,6 @@ var data = [
     {
         "id": "92",
         "Rua": "LUIS TEMPESTA (LT)",
-        "Bairro": "Jardim Esplanada",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -924,7 +832,6 @@ var data = [
     {
         "id": "93",
         "Rua": "MARIO CAMILO FILHO (MCF)",
-        "Bairro": "Jardim Rolando Giu",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -934,17 +841,15 @@ var data = [
     {
         "id": "94",
         "Rua": "MARIO COVAS (MC) - 1985 A 2945",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
         "Micro": "5",
-        "CEP": "18545-280",
+        "CEP": "",
     },
     {
         "id": "95",
         "Rua": "NORBERTO COELHO DE OLIVEIRA (NCO)",
-        "Bairro": "Belo Alto",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -954,7 +859,6 @@ var data = [
     {
         "id": "96",
         "Rua": "OCIREMA FERNANDES STETNER (OFS)",
-        "Bairro": "Belo Alto",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -963,8 +867,7 @@ var data = [
     },
     {
         "id": "97",
-        "Rua": "OLGA BRUGNEROTTO SGARIBOLDI (OBS)",
-        "Bairro": "Jardim Santa Terezinha",
+        "Rua": "OLGA BRUGNEROTTO SGARIBOLDI (OBS",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -974,7 +877,6 @@ var data = [
     {
         "id": "98",
         "Rua": "PAULO DE OLIVEIRA TAUHYL (POT)",
-        "Bairro": "Jardim Rolando Giuli",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -984,7 +886,6 @@ var data = [
     {
         "id": "99",
         "Rua": "PEDRO SGARIBOLDI (PS)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -994,7 +895,6 @@ var data = [
     {
         "id": "100",
         "Rua": "PLINIO MARTINS TELES (PMT)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1004,7 +904,6 @@ var data = [
     {
         "id": "101",
         "Rua": "ROBERVAL CAMARGO DE MORAES (RCM)",
-        "Bairro": "Jardim Rolando Giuli",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1014,7 +913,6 @@ var data = [
     {
         "id": "102",
         "Rua": "ROMEU CASTELUCCI (RC)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1024,7 +922,6 @@ var data = [
     {
         "id": "103",
         "Rua": "SANTA LUCIA MAGOGA (SLM)",
-        "Bairro": "Jardim Santa Terezinha",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1034,17 +931,15 @@ var data = [
     {
         "id": "104",
         "Rua": "SANTO SGARIBOLDI (SS)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
         "Micro": "6",
-        "CEP": "18545-260",
+        "CEP": "18545-250",
     },
     {
         "id": "105",
         "Rua": "REVERENDO SILES BACARO (SB)",
-        "Bairro": "Jardim Santa Terezinha",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1054,7 +949,6 @@ var data = [
     {
         "id": "106",
         "Rua": "ULISSES ALVES MACHADO (UAM)",
-        "Bairro": "Conj. Habitacional Residencial Bello",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1064,7 +958,6 @@ var data = [
     {
         "id": "107",
         "Rua": "VALDEMAR VERONEZE (VV)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1074,7 +967,6 @@ var data = [
     {
         "id": "108",
         "Rua": "VERGINIO ANGELIERE (VA)",
-        "Bairro": "Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1084,7 +976,6 @@ var data = [
     {
         "id": "109",
         "Rua": "ADOLFO FERRARI (AF)",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1094,7 +985,6 @@ var data = [
     {
         "id": "110",
         "Rua": "AMADEU MARTELLI (AM)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1104,7 +994,6 @@ var data = [
     {
         "id": "111",
         "Rua": "ANTONIO BELLO (AB)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1114,7 +1003,6 @@ var data = [
     {
         "id": "112",
         "Rua": "ANTONIO LEITE ALMEIDA (ALA)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1124,7 +1012,6 @@ var data = [
     {
         "id": "113",
         "Rua": "ARMANDO RAMOS (AR) - 38 a 214",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1134,7 +1021,6 @@ var data = [
     {
         "id": "114",
         "Rua": "ARMANDO SALES DE OLIVEIRA (ASO) - 174-585",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1144,7 +1030,6 @@ var data = [
     {
         "id": "115",
         "Rua": "ARMANDO SALES DE OLIVEIRA (ASO) - 12-169",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1154,7 +1039,6 @@ var data = [
     {
         "id": "116",
         "Rua": "ATILIO COLI (AC)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1164,7 +1048,6 @@ var data = [
     {
         "id": "117",
         "Rua": "BENEDITO PIRES DE ARRUDA (BPA)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1174,7 +1057,6 @@ var data = [
     {
         "id": "118",
         "Rua": "BENEDITO DE TOLEDO VIEGAS / VIEIRA (BTV)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1184,7 +1066,6 @@ var data = [
     {
         "id": "119",
         "Rua": "BENEDITO VAZ CARDOSO (BVC)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1194,7 +1075,6 @@ var data = [
     {
         "id": "120",
         "Rua": "BOITUVA",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1204,7 +1084,6 @@ var data = [
     {
         "id": "121",
         "Rua": "CABREUVA",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1214,7 +1093,6 @@ var data = [
     {
         "id": "122",
         "Rua": "CANTIDIO / CANDIDO DE OLIVEIRA (CO)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1224,7 +1102,6 @@ var data = [
     {
         "id": "123",
         "Rua": "CERQUILHO",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1234,7 +1111,6 @@ var data = [
     {
         "id": "124",
         "Rua": "EVARISTO BAPTISTELLA (EB)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1244,7 +1120,6 @@ var data = [
     {
         "id": "125",
         "Rua": "FELICIO CASTELUCCI (FC) - ATÉ 130",
-        "Bairro": "Vila Martelli",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1254,7 +1129,6 @@ var data = [
     {
         "id": "126",
         "Rua": "GENESIO RODRIGUES (GR)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1264,7 +1138,6 @@ var data = [
     {
         "id": "127",
         "Rua": "HUMBERTO MARTELLI (HM) - ATÉ 120",
-        "Bairro": "Vila Martelli",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1274,7 +1147,6 @@ var data = [
     {
         "id": "128",
         "Rua": "INDAIATUBA",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1284,7 +1156,6 @@ var data = [
     {
         "id": "129",
         "Rua": "ITU",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1294,7 +1165,6 @@ var data = [
     {
         "id": "130",
         "Rua": "JOAO BATISTA DE CAMPOS (JBC)",
-        "Bairro": "Jardim Sofia",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1304,17 +1174,15 @@ var data = [
     {
         "id": "131",
         "Rua": "JOAO MARINONIO DE CAMARGO (JMC) - ATÉ 140",
-        "Bairro": "Vila Martelli",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
         "Micro": "4 - MIRO",
-        "CEP": "18542-242,
+        "CEP": "18542-242 - VM",
     },
     {
         "id": "132",
         "Rua": "JOAO RODRIGUES DA SILVA (JRS)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1324,7 +1192,6 @@ var data = [
     {
         "id": "134",
         "Rua": "JOAQUIM PIRES ALMEIDA (JPA)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1333,8 +1200,7 @@ var data = [
     },
     {
         "id": "135",
-        "Rua": "JOSE GUERINI (JG)",
-        "Bairro": "Residencial Bepim",
+        "Rua": "JOSE GUERINE (JG)",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1344,7 +1210,6 @@ var data = [
     {
         "id": "136",
         "Rua": "JOSE MARCELINO ANTUNES (JMA)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1354,7 +1219,6 @@ var data = [
     {
         "id": "137",
         "Rua": "JOSE TEIXEIRA DA FONSECA (JTF)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1364,7 +1228,6 @@ var data = [
     {
         "id": "138",
         "Rua": "LUIZ ANTONIO VIEIRA (LAV)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1374,7 +1237,6 @@ var data = [
     {
         "id": "139",
         "Rua": "LUIS CARLOS RINCK (LCR)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1383,8 +1245,7 @@ var data = [
     },
     {
         "id": "140",
-        "Rua": "LUIZ MARTELI (LM)",
-        "Bairro": "Vila Martelli",
+        "Rua": "LUIS MARTELI (LM)",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1394,7 +1255,6 @@ var data = [
     {
         "id": "141",
         "Rua": "MADRE SERAFINA (MS) - ATÉ 163",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1404,7 +1264,6 @@ var data = [
     {
         "id": "142",
         "Rua": "MARIA MARGARIDA COSSONICHE (MMC)",
-        "Bairro": "Jardim Soﬁa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1414,7 +1273,6 @@ var data = [
     {
         "id": "143",
         "Rua": "MONSENHOR PIRES (MP) - ATÉ 286",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1424,7 +1282,6 @@ var data = [
     {
         "id": "144",
         "Rua": "NATALIO TAUHYL (NT)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1434,17 +1291,15 @@ var data = [
     {
         "id": "145",
         "Rua": "OLAVO ASSUMPÇAO FLEURY (OAF) - ATÉ 96",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
         "Micro": "6 - TATIANE",
-        "CEP": "18542-050",
+        "CEP": "18542-152",
     },
     {
         "id": "146",
         "Rua": "PADRE ALEXANDRE HORDEAU (PAH) - ATÉ 39",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1453,8 +1308,7 @@ var data = [
     },
     {
         "id": "147",
-        "Rua": "PASCOA BONINI GUERINI (PBG)",
-        "Bairro": "Residencial Bepim",
+        "Rua": "PASCOA BONINE GUERINE (PBG)",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1464,27 +1318,24 @@ var data = [
     {
         "id": "148",
         "Rua": "PEDRO PAULO DE OLIVEIRA (PPO)",
-        "Bairro": "Jardim Santa Eliza",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
         "Micro": "5 - KAREN",
-        "CEP": "18542-264*",
+        "CEP": "18545-138",
     },
     {
         "id": "149",
         "Rua": "PIRAPORA",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
         "Micro": "4 - MIRO",
-        "CEP": "18542-160",
+        "CEP": "18542-458",
     },
     {
         "id": "150",
         "Rua": "ROQUE PLINIO DE CARVALHO (RPC)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1494,7 +1345,6 @@ var data = [
     {
         "id": "151",
         "Rua": "SALTO",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1504,7 +1354,6 @@ var data = [
     {
         "id": "152",
         "Rua": "SANTA ROSA (SR)",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1514,7 +1363,6 @@ var data = [
     {
         "id": "153",
         "Rua": "SOROCABA",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1524,17 +1372,15 @@ var data = [
     {
         "id": "154",
         "Rua": "TATUI",
-        "Bairro": "Jardim Soﬁa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
         "Micro": "4 - MIRO",
-        "CEP": "18542-180**",
+        "CEP": "18542-174",
     },
     {
         "id": "155",
         "Rua": "TIETE",
-        "Bairro": "Jardim Santa Rosa",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1544,7 +1390,6 @@ var data = [
     {
         "id": "156",
         "Rua": "ULISSES CORNELIO VITORINO (UCV)",
-        "Bairro": "Vila Progresso",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1554,7 +1399,6 @@ var data = [
     {
         "id": "157",
         "Rua": "VITORIO BELO (VB)",
-        "Bairro": "Residencial Bepim",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1564,7 +1408,6 @@ var data = [
     {
         "id": "158",
         "Rua": "GENESIO AZOLINE (GA)",
-        "Bairro": "Residencial Portal Ville Ipê",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1574,17 +1417,15 @@ var data = [
     {
         "id": "159",
         "Rua": "ALFREDO SALEM (AS)",
-        "Bairro": "Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
-        "Micro": "4",
+        "Micro": "4 - JULIA",
         "CEP": "18545-262",
     },
     {
         "id": "160",
         "Rua": "VICTORIO MARTELETTO (VM)",
-        "Bairro": "Jardim Santa Terezinha",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1594,7 +1435,6 @@ var data = [
     {
         "id": "161",
         "Rua": "MARIA DE LOURDES RIBEIRO DA SILVA SERAFIM (MLRSS)",
-        "Bairro": "Parque Residencial São Marcos",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1604,7 +1444,6 @@ var data = [
     {
         "id": "162",
         "Rua": "JOSE OLIVEIRA DE SOUZA (JOS)",
-        "Bairro": "Jardim Santa Terezinha",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1614,7 +1453,6 @@ var data = [
     {
         "id": "163",
         "Rua": "LEONILDE CADETE DA SILVA (LCS)",
-        "Bairro": "Residencial São Francisco",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1623,8 +1461,7 @@ var data = [
     },
     {
         "id": "164",
-        "Rua": "MARIO MARTINS DE CAMARGO (MMC)",
-        "Bairro": "Lot. Residencial Terras do Porto",
+        "Rua": "MARIO MARTINS DE CAMARGO / TERRAS DO PORTO (MMC)",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1634,7 +1471,6 @@ var data = [
     {
         "id": "165",
         "Rua": "PERES VENTURA (PV)",
-        "Bairro": "Conj. Habitacional Agostinho Alcalá",
         "Medico": "PEDRO",
         "Enfermeira": "Milene",
         "Equipe": "PRATA",
@@ -1644,7 +1480,6 @@ var data = [
     {
         "id": "166",
         "Rua": "TANCREDO DE ALMEIDA NEVES (TAN)",
-        "Bairro": "Belo Alto",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
         "Equipe": "ROSA",
@@ -1654,7 +1489,6 @@ var data = [
     {
     "id": "167",
         "Rua": "LUIZ CARLOS LISBOA (LCL) - 91 EM DIANTE",
-        "Bairro": "Residencial Portal Ville Ipê",
         "Medico": "BRUNO",
         "Enfermeira": "Ana Beatriz",
         "Equipe": "OURO",
@@ -1703,7 +1537,6 @@ function create_elment(item) {
     return `
     <tr>
         <td>${item.Rua}</td>
-        <td>${item.Bairro.toUpperCase()}</td>
         <td><span `+ getEquipe(item.Equipe) + `>•</span> ${item.Equipe}</td>
         <td>${item.Medico}</td>
         <td>${item.Enfermeira}</td>                        
@@ -1820,7 +1653,7 @@ search.addEventListener("keyup", function () {
     else {
         for (var i = 0; i < data.length; i++) {
             if (searchValue != "") {
-                if (data[i].id.indexOf(searchValue) >= 0 || (data[i].Rua).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Bairro).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Equipe).toLowerCase().indexOf(searchValue) >= 0)
+                if (data[i].id.indexOf(searchValue) >= 0 || (data[i].Rua).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Medico).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Equipe).toLowerCase().indexOf(searchValue) >= 0)
                     xuat(data[i]);
             }
 
