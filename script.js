@@ -1641,6 +1641,17 @@ var data = [
         "Micro": "",
         "CEP": "18545-120",
     },
+    
+    {
+    "id": "168",
+        "Rua": "AMELIO BARNABE (AB)",
+        "Bairro": "Rolando Giuli",
+        "Medico": "RENAN",
+        "Enfermeira": "Caroline",
+        "Equipe": "OURO",
+        "Micro": "",
+        "CEP": "18542-522",
+    },
 ];
 
 state.data = data;
