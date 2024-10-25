@@ -1648,7 +1648,7 @@ var data = [
         "Bairro": "Rolando Giuli",
         "Medico": "RENAN",
         "Enfermeira": "Caroline",
-        "Equipe": "OURO",
+        "Equipe": "ROSA",
         "Micro": "",
         "CEP": "18542-522",
     },
