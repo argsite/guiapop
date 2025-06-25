@@ -1652,6 +1652,17 @@ var data = [
         "Micro": "",
         "CEP": "18542-522",
     },
+
+     {
+    "id": "169",
+        "Rua": "CARDOSO PIMENTEL (CP)",
+        "Bairro": "Belo Alto",
+        "Medico": "RENAN",
+        "Enfermeira": "Maria Ap Maciel",
+        "Equipe": "ROSA",
+        "Micro": "",
+        "CEP": "18545-130",
+    },
 ];
 
 state.data = data;
