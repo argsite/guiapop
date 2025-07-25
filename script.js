@@ -1663,6 +1663,17 @@ var data = [
         "Micro": "",
         "CEP": "18545-130",
     },
+
+     {
+    "id": "170",
+        "Rua": "PEDRO MOREAU (PM)",
+        "Bairro": "Rolando Giuli",
+        "Medico": "RENAN",
+        "Enfermeira": "Maria Ap Maciel",
+        "Equipe": "ROSA",
+        "Micro": "1 - DAIANE",
+        "CEP": "18542-502",
+    },
 ];
 
 state.data = data;
