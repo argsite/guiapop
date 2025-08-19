@@ -1633,7 +1633,7 @@ var data = [
     },
     {
     "id": "167",
-        "Rua": "LUIZ CARLOS LISBOA (LCL) - 91 EM DIANTE",
+        "Rua": "LUIZ CARLOS LISBOA (LCL) - 106 EM DIANTE",
         "Bairro": "Residencial Portal Ville Ipê",
         "Medico": "BRUNO",
         "Enfermeira": "Milene",
