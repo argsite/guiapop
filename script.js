@@ -503,7 +503,7 @@ var data = [
     },
     {
         "id": "51",
-        "Rua": "LUIZ CARLOS LISBOA (LCL) - 15 A 90",
+        "Rua": "LUIZ CARLOS LISBOA (LCL) - 15 A 105",
         "Bairro": "Residencial Humberto Martelli",
         "Medico": "ANA PAULA",
         "Enfermeira": "Andrea",
