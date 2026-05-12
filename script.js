@@ -8,7 +8,7 @@ var data = [
         "Medico": "PEDRO",
         "Enfermeira": "Julia",
         "Equipe": "PRATA",
-        "Micro": "5",
+        "Micro": "5 - DEISE",
         "CEP": "18542-458",
     },
     {
@@ -38,7 +38,7 @@ var data = [
         "Medico": "PEDRO",
         "Enfermeira": "Julia",
         "Equipe": "PRATA",
-        "Micro": "5",
+        "Micro": "5 - DEISE",
         "CEP": "18542-456",
     },
     {
@@ -98,7 +98,7 @@ var data = [
         "Medico": "PEDRO",
         "Enfermeira": "Julia",
         "Equipe": "PRATA",
-        "Micro": "5",
+        "Micro": "5 - DEISE",
         "CEP": "18542-454",
     },
     {
@@ -138,7 +138,7 @@ var data = [
         "Medico": "PEDRO",
         "Enfermeira": "Julia",
         "Equipe": "PRATA",
-        "Micro": "5",
+        "Micro": "5 - DEISE",
         "CEP": "18542-472",
     },
     {
@@ -188,7 +188,7 @@ var data = [
         "Medico": "PEDRO",
         "Enfermeira": "Julia",
         "Equipe": "PRATA",
-        "Micro": "5",
+        "Micro": "5 - DEISE",
         "CEP": "18542-474",
     },
     {
