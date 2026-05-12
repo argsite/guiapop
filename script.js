@@ -83,7 +83,7 @@ var data = [
     },
     {
         "id": "9",
-        "Rua": "DANIEL DE CAMARGO TABORDA (DCT) - (5-484)",
+        "Rua": "DANIEL DE CAMARGO TABORDA (DCT) - (5-297)",
         "Bairro": "Conjunto Habitacional Eugênio Motta (até 175)",
         "Medico": "PEDRO",
         "Enfermeira": "Julia",
@@ -763,7 +763,7 @@ var data = [
     },
     {
         "id": "77",
-        "Rua": "DANIEL DE CAMARGO TABORDA (DCT) - 485 EM DIANTE",
+        "Rua": "DANIEL DE CAMARGO TABORDA (DCT) - 298 EM DIANTE",
         "Bairro": "Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Maria Ap Maciel",
