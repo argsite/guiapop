@@ -121,19 +121,38 @@
 			</table>
 
 			<div class="clearfix">
-				<div class="hint-text">Mostrando <b id="number1"></b> de <b id="number2"></b> ruas</div>
+				<div class="hint-text">Mostrando <b id="number1">0</b> de <b id="number2">0</b> ruas</div>
 				<ul class="pagination" id="page">
 					<ul class="pagination" id="subpage"></ul>
 				</ul>
-
 			</div>
 		</div>
 	</div>
- <script src="demo.js">
 
-		</script>
+	<script>
+		$(document).ready(function () {
+			// Ativa tooltips
+			$('[data-toggle="tooltip"]').tooltip();
 
+			// Lógica do Filtro
+			$("#search").on("keyup", function () {
+				var value = $(this).val().toLowerCase();
+				$("#tbody tr").filter(function () {
+					$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+				});
+				atualizarContador();
+			});
 
+			function atualizarContador() {
+				var total = $("#tbody tr").length;
+				var visiveis = $("#tbody tr:visible").length;
+				$("#number1").text(visiveis);
+				$("#number2").text(total);
+			}
+		});
+	</script>
+	
+	<script src="demo.js"></script>
 </body>
 </html>
 
