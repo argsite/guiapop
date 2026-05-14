@@ -3,19 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>GUIA POP</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="demo.css">
-	
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="favicon.ico"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="demo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('[data-toggle="tooltip"]').tooltip();
 		});
 	</script>
+</head>
+<body>
+	
 </head>
 
 <body>
@@ -121,38 +132,18 @@
 			</table>
 
 			<div class="clearfix">
-				<div class="hint-text">Mostrando <b id="number1">0</b> de <b id="number2">0</b> ruas</div>
+				<div class="hint-text">Mostrando <b id="number1"></b> de <b id="number2"></b> ruas</div>
 				<ul class="pagination" id="page">
 					<ul class="pagination" id="subpage"></ul>
 				</ul>
+
 			</div>
 		</div>
 	</div>
+  <script  src="./script.js"></script>
+ <script src="demo.js"></script>
 
-	<script>
-		$(document).ready(function () {
-			// Ativa tooltips
-			$('[data-toggle="tooltip"]').tooltip();
 
-			// Lógica do Filtro
-			$("#search").on("keyup", function () {
-				var value = $(this).val().toLowerCase();
-				$("#tbody tr").filter(function () {
-					$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-				});
-				atualizarContador();
-			});
-
-			function atualizarContador() {
-				var total = $("#tbody tr").length;
-				var visiveis = $("#tbody tr:visible").length;
-				$("#number1").text(visiveis);
-				$("#number2").text(total);
-			}
-		});
-	</script>
-	
-	<script src="demo.js"></script>
 </body>
 </html>
 
