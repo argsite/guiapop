@@ -1073,7 +1073,7 @@ var data = [
     },
     {
         "id": "108",
-        "Rua": "VERGINIO ANGELIERE (VA)",
+        "Rua": "VERGINIO ANGELIERE (VA) - ATÉ 121",
         "Bairro": "Parque Residencial Água Branca",
         "Medico": "RENAN",
         "Enfermeira": "Maria Ap Maciel",
@@ -1081,6 +1081,18 @@ var data = [
         "Micro": "2 - RENATA",
         "CEP": "18542-478",
     },
+
+    {
+        "id": "108",
+        "Rua": "VERGINIO ANGELIERE (VA) - A PARTIR DE 122",
+        "Bairro": "Parque Residencial Água Branca",
+        "Medico": "RENAN",
+        "Enfermeira": "Maria Ap Maciel",
+        "Equipe": "ROSA",
+        "Micro": "6 - MARCIA",
+        "CEP": "18542-478",
+    },
+    
     {
         "id": "109",
         "Rua": "ADOLFO FERRARI (AF)",
