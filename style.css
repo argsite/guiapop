@@ -4,6 +4,12 @@ body {
 		font-family: 'Varela Round', sans-serif;
 		font-size: 11px;
 	}
+
+container-fluid {
+	display: flex;
+	justify-content: center;
+}
+
 	.table-wrapper {
         background: #fff;
         padding: 2px 2px;
