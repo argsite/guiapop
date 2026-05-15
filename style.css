@@ -329,7 +329,7 @@ table.table-striped.table-hover tbody tr:hover {
 	   
 	   .input:focus, input:hover {
 		outline: none;
-		border-color: rgba(84, 76, 234, 0.4);
+		border-color: #FAFAF7;
 		background-color: #fff;
 		box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
 	   }
