@@ -1845,7 +1845,7 @@ search.addEventListener("keyup", function () {
     else {
         for (var i = 0; i < data.length; i++) {
             if (searchValue != "") {
-                if (data[i].id.indexOf(searchValue) >= 0 || (data[i].Rua).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Bairro).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Equipe).toLowerCase().indexOf(searchValue) >= 0)
+                if (data[i].id.indexOf(searchValue) >= 0 || (data[i].Rua).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Bairro).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Equipe).toLowerCase().indexOf(searchValue) >= 0 || (data[i].Micro).toLowerCase().indexOf(searchValue) >= 0)
                     xuat(data[i]);
             }
 
