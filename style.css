@@ -167,14 +167,14 @@ table.table td {
     padding: 14px 12px;
     border-bottom: 1px solid #ececec;
     font-size: 14px;
-    color: #FAFAF7;
+    color: #566787;
 }
 	table.table tr th:first-child {
 		width: 25%;
 	}
 	
 table.table-striped tbody tr:nth-of-type(even) {
-    background-color: #f8fafc;
+    background-color: #FAFAF7;
 }
 table.table-striped.table-hover tbody tr:hover {
     background: #eaf6ff;
