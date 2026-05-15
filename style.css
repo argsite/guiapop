@@ -1,9 +1,11 @@
 body {
-        color: #566787;
-		background: #fff;
-		font-family: 'Varela Round', sans-serif;
-		font-size: 11px;
-	}
+    color: #566787;
+    background: #f4f6f9;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+}
 
 container-fluid {
 	display: flex;
@@ -11,12 +13,15 @@ container-fluid {
 }
 
 	.table-wrapper {
-        background: #fff;
-        padding: 2px 2px;
-        margin: 10px auto;
-		border-radius: 3px;
-        box-shadow: 0 1px 1px rgba(0,0,0,.05);
-    }
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+    max-width: 1400px;
+    overflow-x: auto;
+}
+
 	.table-wrapper .btn {
 		float: right;
 		color: #333;
@@ -83,9 +88,10 @@ container-fluid {
 		
 	}
 	.table-filter .filter-group {
-		margin: 0 auto;
-		padding-bottom:20px;
-    }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 	
 	.table-search {
 		visibility: hidden;
@@ -105,14 +111,14 @@ container-fluid {
 	padding-left:0px;		
 	}
 
-	.table-filter {
-		border-bottom: 1px solid #e9e9e9;
-		margin: 0 auto;
-		display: flex;
-		justify-content: center;
-		padding-bottom: 20px;
+.table-filter {
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 
-	}
 	.table-filter .btn {
 		height: 34px;
 	}
@@ -141,26 +147,38 @@ container-fluid {
 		font-size: 18px;
 		opacity: 0.7;
     }	
-    table.table tr td {
-        border-color: #e9e9e9;
-        padding: 2px 2px;
-        vertical-align: middle;
-    }
-    table.table tr th, table.table tr td {
-        border-color: #e9e9e9;
-		padding: 2px 2px;
-		vertical-align: middle;
-    }
+   table.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table.table th {
+    background: #03A9F4;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 12px;
+    text-align: left;
+}
+
+table.table td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #ececec;
+    font-size: 14px;
+    color: #444;
+}
 	table.table tr th:first-child {
 		width: 25%;
 	}
 	
-    table.table-striped tbody tr:nth-of-type(odd) {
-    	background-color: #fcfcfc;
-	}
-	table.table-striped.table-hover tbody tr:hover {
-		background: #f5f5f5;
-	}
+table.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f8fafc;
+}
+table.table-striped.table-hover tbody tr:hover {
+    background: #eaf6ff;
+    transition: 0.2s;
+}
     table.table th i {
         font-size: 13px;
         margin: 0 5px;
@@ -284,26 +302,25 @@ container-fluid {
 	}
 
 	.group {
-		display: flex;
-		line-height: 78px;
-		align-items: center;
-		position: relative;
-		max-width: 290px;
-	   }
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
 	   
-	   .input {
-		width: 100%;
-		height: 50px;
-		line-height: 28px;
-		padding: 0 1rem;
-		padding-left: 2.5rem;
-		border: 2px solid transparent;
-		border-radius: 8px;
-		outline: none;
-		background-color: #f3f3f4;
-		color: #0d0c22;
-		transition: .3s ease;
-	   }
+.input {
+    width: 100%;
+    height: 52px;
+    padding: 0 1rem 0 3rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 15px;
+    transition: 0.3s;
+}
 	   
 	   .input::placeholder {
 		color: #9e9ea7;
@@ -323,3 +340,28 @@ container-fluid {
 		width: 2rem;
 		height: 2rem;
 	   }
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .table-wrapper {
+        padding: 10px;
+    }
+
+    table.table th,
+    table.table td {
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+
+    .group {
+        max-width: 100%;
+    }
+
+    .input {
+        font-size: 14px;
+    }
+}
