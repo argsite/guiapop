@@ -17,7 +17,7 @@ container-fluid {
     padding: 20px;
     margin: 20px auto;
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+    /*box-shadow: 0 4px 20px rgba(0,0,0,.08);*/
     max-width: 1400px;
     overflow-x: auto;
 }
