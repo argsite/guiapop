@@ -331,7 +331,7 @@ table.table-striped.table-hover tbody tr:hover {
 		outline: none;
 		border-color: #FAFAF7;
 		background-color: #fff;
-		box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+		box-shadow: 0 0 0 4px rgb(247, 247, 247 / 10%);
 	   }
 	   
 	   .icon {
