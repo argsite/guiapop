@@ -43,7 +43,7 @@ container-fluid {
 		background: #03a3e7;
 	}
 	.table-title .btn {		
-		font-size: 13px;
+		font-size: 14px;
 		border: none;
 	}
 	.table-title .btn i {
@@ -154,7 +154,7 @@ container-fluid {
 }
 
 table.table th {
-    background: #FAFAF7;
+    background: #F2F2F2;
     color: #334155;
     font-size: 14px;
     font-weight: 600;
@@ -167,7 +167,7 @@ table.table td {
     padding: 14px 12px;
     border-bottom: 1px solid #ececec;
     font-size: 14px;
-    color: #444;
+    color: #FAFAF7;
 }
 	table.table tr th:first-child {
 		width: 25%;
