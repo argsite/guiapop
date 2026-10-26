@@ -1515,7 +1515,7 @@ var data = [
     },
     {
         "id": "152",
-        "Rua": "SANTA ROSA (SR)",
+        "Rua": "AVENIDA SANTA ROSA (ASR)",
         "Bairro": "Jardim Santa Rosa",
         "Medico": "GEISA",
         "Enfermeira": "Luana",
