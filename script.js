@@ -1038,7 +1038,7 @@ var data = [
         "Medico": "BRUNO",
         "Enfermeira": "Milene",
         "Equipe": "ROSA",
-        "Micro": "6 - MARCIA",
+        "Micro": "6",
         "CEP": "18545-260",
     },
     {
